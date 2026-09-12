@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Deutsch Meistern</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563EB;
+      --primary-dark: #1D4ED8;
+      --accent: #FCC90A;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text-main: #0F172A;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0B1120;
+        --card-bg: #1E293B;
+        --text-main: #F8FAFC;
+        --text-muted: #94A3B8;
+        --border: #334155;
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 48px 40px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    }
+
+    .header {
+      margin-bottom: 32px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--primary);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--text-main);
+      font-size: 15px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+      color: var(--text-main);
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background: rgba(37, 99, 235, 0.08);
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    .highlight-box {
+      background: rgba(37, 99, 235, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      font-weight: 500;
+      font-size: 14.5px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13.5px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="badge">Privacy Policy</div>
+      <h1>Deutsch Meistern</h1>
+      <div class="meta">Effective Date: September 12, 2026 • Last Updated: September 12, 2026</div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>Privacy Summary:</strong> Deutsch Meistern is designed with privacy at its core. We do <strong>NOT</strong> collect, track, or share your personal data. All your learning progress is stored locally on your own device.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>Personal Information:</strong> We do not collect, request, or store any personal data such as your name, email address, physical location, phone number, or device identifiers.</p>
+    <p><strong>Local Learning Data:</strong> Your lesson progress, quiz scores, XP points, daily goal streaks, and dictionary preferences are stored exclusively on your device using local storage. This information is never transmitted to any external servers.</p>
+
+    <h2>2. Permissions Used</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>POST_NOTIFICATIONS</strong></td>
+            <td>Delivers optional daily "Word of the Day" reminders. Can be disabled at any time in system settings.</td>
+          </tr>
+          <tr>
+            <td><strong>VIBRATE</strong></td>
+            <td>Provides tactile haptic feedback during quiz interactions and button presses.</td>
+          </tr>
+          <tr>
+            <td><strong>RECEIVE_BOOT_COMPLETED</strong></td>
+            <td>Allows scheduled local study notifications to resume after restarting your device.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>3. Text-to-Speech (TTS) & Audio</h2>
+    <p>The app uses your device's native Text-to-Speech engine to pronounce German words. We do not access your microphone, and no audio is recorded or stored.</p>
+
+    <h2>4. Third-Party Services & Advertising</h2>
+    <p>Deutsch Meistern does not integrate third-party advertising networks, marketing trackers, or analytical tracking SDKs. The app functions 100% offline.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Because no personal information is collected from any user, Deutsch Meistern is fully compliant with the Children's Online Privacy Protection Act (COPPA) and the General Data Protection Regulation (GDPR).</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or suggestions about this Privacy Policy, please reach out to:</p>
+    <ul>
+      <li><strong>Developer:</strong> AdTech</li>
+      <li><strong>App ID:</strong> <code>com.adtech.mastergerman</code></li>
+      <li><strong>Email:</strong> support@adtechnp.com</li>
+    </ul>
+
+    <div class="footer">
+      © 2026 Deutsch Meistern by AdTech. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
